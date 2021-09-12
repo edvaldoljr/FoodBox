@@ -100,13 +100,13 @@
     </div>
 
     <h3>Primeiro, seu prato</h3>
-    <div class="Produto">
+    <div id="Frango" class="Produto" onclick="escolherFrango()">
       <img src="images/Frango.jpg" />
       <h4>Frango Yin-Yang</h4>
       <p>Frango frito com salada e um pouco de batata</p>
       <p class="preco">R$ 19,90</p>
     </div>
-    <div class="Produto">
+    <div id="Carne" class="Produto" onclick="escolherCarne()">
       <img src="images/Carne.jpg" />
       <h4>Carne e salada</h4>
       <p>Carne partida ao meio acompanhando alface e tomate</p>
@@ -114,13 +114,13 @@
     </div>
 
     <h3>Agora, sua bebida</h3>
-    <div class="Produto">
+    <div id="Coca" class="Produto" onclick="escolherCoca()">
       <img src="images/coca.jpg" />
       <h4>Coca-cola gelada</h4>
       <p>Original</p>
       <p class="preco">R$ 5,90</p>
     </div>
-    <div class="Produto">
+    <div id="Suco" class="Produto" onclick="escolherSuco()">
       <img src="images/suco.jpg" />
       <h4>Suco-Laraja</h4>
       <p>100% Natural</p>
@@ -128,13 +128,13 @@
     </div>
 
     <h3>Por fim, sua sobremesa</h3>
-    <div class="Produto">
+    <div id="Pudim" class="Produto" onclick="escolherPudim()">
       <img src="images/pudim.jpg" />
       <h4>Pudim</h4>
       <p>Muito delicioso e saboroso</p>
       <p class="preco">R$ 7,90</p>
     </div>
-    <div class="Produto">
+    <div id="Sorvete" class="Produto" onclick="escolherSorvete()">
       <img src="images/sorvete.jpg" />
       <h4>Soverte - Morando</h4>
       <p>Três bolas como na foto</p>
@@ -144,5 +144,33 @@
     <div class="botao">
       Finalizar pedido
     </div>
+    <script>
+      function escolherFrango() {
+        document.getElementById("Frango").style.borderColor = "green";
+        document.getElementById("Carne").style.borderColor = "white";
+      }
+      function escolherCarne() {
+        document.getElementById("Carne").style.borderColor = "green";
+        document.getElementById("Frango").style.borderColor = "white";
+      }
+
+      function escolherCoca() {
+        document.getElementById("Coca").style.borderColor = "green";
+        document.getElementById("Suco").style.borderColor = "white";
+      }
+      function escolherSuco() {
+        document.getElementById("Suco").style.borderColor = "green";
+        document.getElementById("Coca").style.borderColor = "white";
+      }
+
+      function escolherPudim() {
+        document.getElementById("Pudim").style.borderColor = "green";
+        document.getElementById("Sorvete").style.borderColor = "white";
+      }
+      function escolherSorvete() {
+        document.getElementById("Sorvete").style.borderColor = "green";
+        document.getElementById("Pudim").style.borderColor = "white";
+      }
+    </script>
   </body>
 </html>
