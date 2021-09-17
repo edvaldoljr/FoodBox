@@ -42,7 +42,8 @@ function finalizarPedido() {
     prato +
     ", " +
     bebida +
-    " e um " +
+    " e " +
     sobremesa;
-  alert(mensagem);
+
+  window.open("https://wa.me/+5519988313921?text=" + mensagem);
 }
