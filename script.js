@@ -35,12 +35,14 @@ function escolherSorvete() {
   sobremesa = "Sorvete de Morango";
 }
 function finalizarPedido() {
-  alert(
-    "Olá gostaria de pedir um combo " +
-      prato +
-      ", " +
-      bebida +
-      "e um " +
-      sobremesa
-  );
+  let mensagem;
+
+  mensagem =
+    "Olá gostaria de pedir um combo: " +
+    prato +
+    ", " +
+    bebida +
+    " e um " +
+    sobremesa;
+  alert(mensagem);
 }
