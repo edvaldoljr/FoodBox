@@ -36,6 +36,11 @@ function escolherSorvete() {
 }
 function finalizarPedido() {
   alert(
-    "Olá gostaria de pedir um combo " + prato + ", " + bebida + ", " + sobremesa
+    "Olá gostaria de pedir um combo " +
+      prato +
+      ", " +
+      bebida +
+      "e um " +
+      sobremesa
   );
 }
