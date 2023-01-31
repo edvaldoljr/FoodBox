@@ -240,11 +240,11 @@ function finalizarPedido() {
 
 Este é um exemplo de código JavaScript para uma aplicação de delivery de comida. O código define as funções para escolher o prato, bebida e sobremesa. A função finalizarPedido cria uma mensagem de texto combinando as escolhas do usuário e abre o aplicativo WhatsApp para enviar a mensagem para o número de telefone especificado.
 
-## Aplicação:
+# **Acesse o Link: **https://food-box-seven.vercel.app/
 
-![](https://github.com/edvaldoljr/FoodBox/blob/main/public/images/Foodbox.png?raw=true)
+![](https://github.com/edvaldoljr/Projeto-FrontEnd-FoodBox/blob/main/public/images/img-projeto.gif?raw=true)
 
-# Deixe um Star
+# ⭐️**Deixe um Star** ⭐️
 
 Obrigado por conferir meu repository! É muito gratificante saber que alguém está interessado no meu trabalho. Se você gostou do que viu, deixar um star seria uma grande ajuda no meu crescimento e me motivaria a continuar fazendo projetos. O apoio de pessoas como você é fundamental para que eu possa seguir evoluindo e produzindo conteúdos cada vez melhores. Obrigado mais uma vez e espero que você possa acompanhar meus futuros projetos!
 
