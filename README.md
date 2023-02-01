@@ -1,5 +1,7 @@
 # Projeto FoodBox
 
+![](https://github.com/edvaldoljr/Projeto-FrontEnd-FoodBox/blob/main/public/images/img-projeto.gif?raw=true)
+
 Este projeto é uma página web simples que permite ao usuário escolher um combo de prato, bebida e sobremesa. O usuário pode clicar em botões para escolher o prato (frango ou carne), a bebida (Coca-Cola ou suco de laranja) e a sobremesa (pudim ou sorvete de morango). Uma vez que o usuário fez suas escolhas, ele pode clicar no botão "finalizar pedido" para enviar seu pedido por meio do WhatsApp. A mensagem enviada incluirá todas as escolhas do usuário.
 
 ## Para desenvolver o projeto FoodBox, são necessários os seguintes requisitos:
@@ -240,9 +242,8 @@ function finalizarPedido() {
 
 Este é um exemplo de código JavaScript para uma aplicação de delivery de comida. O código define as funções para escolher o prato, bebida e sobremesa. A função finalizarPedido cria uma mensagem de texto combinando as escolhas do usuário e abre o aplicativo WhatsApp para enviar a mensagem para o número de telefone especificado.
 
-# **Acesse o Link: https://food-box-seven.vercel.app/**
+# **Acesse o Link e confira: https://food-box-seven.vercel.app/**
 
-![](https://github.com/edvaldoljr/Projeto-FrontEnd-FoodBox/blob/main/public/images/img-projeto.gif?raw=true)
 
 # ⭐️**Deixe um Star** ⭐️
 
